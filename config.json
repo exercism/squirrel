@@ -8,23 +8,109 @@
     "representer": false,
     "analyzer": false
   },
-  "blurb": "TODO: add blurb",
+  "blurb": "Squirrel is a lightweight scripting language, used to be embedded in video games or on-board scripting.",
   "version": 3,
   "online_editor": {
     "indent_style": "space",
     "indent_size": 4
   },
   "files": {
-    "solution": [],
-    "test": [],
-    "example": [],
-    "exemplar": []
+    "solution": [
+      "%{snake_slug}.nut"
+    ],
+    "test": [
+      "%{snake_slug}_test.nut"
+    ],
+    "example": [
+      ".meta/example.nut"
+    ]
   },
   "exercises": {
-    "concept": [],
-    "practice": []
+    "practice": [
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "80b8e4ce-c3c3-436f-badd-e82c2256f8f2",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "leap",
+        "name": "Leap",
+        "uuid": "e4cd344e-9e81-4ca1-9e7e-5b39a7d5755f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "isogram",
+        "name": "Isogram",
+        "uuid": "af7822eb-be5a-45a4-9b1c-529289e2797e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "6589a5df-8684-4fa1-bde8-49b2176f34ef",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "b3e979f8-9c52-4777-a876-c89d82ccdfff",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "raindrops",
+        "name": "Raindrops",
+        "uuid": "a9b507f9-8148-4733-8620-4f85ba9bcc37",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "resistor-color",
+        "name": "Resistor Color",
+        "uuid": "f076eccc-486f-437a-9000-f30d99d15cbc",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "space-age",
+        "name": "Space Age",
+        "uuid": "f451ad6f-31be-4645-947f-24e34d5eae3a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "nucleotide-count",
+        "name": "Nucleotide Count",
+        "uuid": "5ae03eae-436d-499c-ae06-a7794ea23132",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      }
+    ]
   },
-  "concepts": [],
-  "key_features": [],
-  "tags": []
+  "tags": [
+    "paradigm/functional",
+    "paradigm/imperative",
+    "paradigm/object_oriented",
+    "platform/linux",
+    "platform/mac",
+    "platform/windows",
+    "typing/dynamic",
+    "used_for/embedded_systems",
+    "used_for/games",
+    "used_for/scripts"
+  ]
 }
