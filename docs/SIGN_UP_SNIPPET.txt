@@ -1,0 +1,15 @@
+function mostCommonWord(text) {
+    local counts = {};
+    local best = "";
+    foreach (word in split(text.tolower(), " ")) {
+        if (word in counts) {
+            counts[word]++;
+        } else {
+            counts[word] <- 1;
+        }
+        if (best == "" || counts[word] > counts[best]) {
+            best = word;
+        }
+    }
+    return format("\"%s\" appears %d times", best, counts[best]);
+}
